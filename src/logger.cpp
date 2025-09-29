@@ -35,7 +35,7 @@ double average(const double values[], int size) {
     if (size == 0){
 	    throw std::string("Empty");
     }
-    double avg; 
+    double avg = 0.0; 
     for(int i = 0; i < size; i++){
 	    avg += values[i]; 
     }
